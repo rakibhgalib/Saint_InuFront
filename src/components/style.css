@@ -1,0 +1,60 @@
+.sidebar{
+    width: 100%;
+    height: 100vh;
+    background-color:#343a40 !important;
+    color: white;
+    box-shadow: 2px 2px 20px grey;
+}
+
+.txt-white{
+    color:white;
+}
+
+.txt-white:hover{
+    color: white;
+}
+.navbar{
+    background-color:#f1f1f1 !important;
+    border-radius: 10px; 
+    margin: 10px;
+    position: relative;
+}
+.nameBox{
+    position: absolute;
+    right: 10px;
+    top:20px;
+    background-color:#343a40 !important;
+    color: white !important;
+    padding: 8px;
+    border-radius: 12px;
+}
+.navbar-nav{
+    display: none !important;
+}
+.nav-active{
+    background-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        display: none;
+    }
+    .card{
+        margin-bottom: 10px !important;
+    }
+    .navbar{
+        position: fixed;
+        top:0px;
+        left: 0px;
+        right: 0px;
+        background-color:#343a40 !important;
+        z-index: 10000000000;
+    }
+    .nameBox{
+        background-color: #f1f1f1 !important;
+        color: #555 !important;
+    }
+    .navbar-nav{
+        display: block !important;
+    }
+  }

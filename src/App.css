@@ -1,0 +1,106 @@
+.lnk{
+  text-decoration: none;
+}
+
+.containerFill{
+  width: 100%;
+  overflow:hidden;
+}
+.midcontainer{
+  height: 80vh;
+  overflow: auto;
+}
+
+.card{
+  background-color: #f1f1f1 !important;
+  border-radius: 15px;
+  border:none;
+  outline:none;
+  box-shadow: 0px 10px 20px #ddd;
+}
+
+.bg-2{
+  background-color:#b3f5c4 !important;
+  box-shadow: 0px 10px 20px #ddd;
+}
+
+.loader{
+  position:fixed;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10000;
+}
+.logSinBox{
+  width: 50%;
+}
+
+.dbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.dbox p{
+  font-size: 25px;
+}
+
+.srcBox{
+  border:1px solid #ddd;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.srcBox input{
+  border:none;
+  outline: none;
+  
+}
+
+.srcBox input:hover{
+  border:none;
+  outline: none;
+}
+
+.srcBox input:focus{
+  box-shadow: none;
+  border:none;
+  outline: none;
+}
+
+.srcBox select{
+  border:none;
+  outline: none;
+  
+}
+
+.srcBox select:hover{
+  border:none;
+  outline: none;
+}
+
+.srcBox select:focus{
+  box-shadow: none;
+  border:none;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .midcontainer{
+    height: auto;
+    margin-top: 100px;
+  }
+  .logSinBox{
+    width: 100%;
+  }
+  .alert{
+    word-break: break-word !important;
+  }
+}
